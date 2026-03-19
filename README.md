@@ -32,7 +32,7 @@ size_categories:
     <a href="https://huggingface.co/datasets/ScienceOne-AI/S1-MMAlign">
         <img alt="Hugging Face Dataset" src="https://img.shields.io/badge/🤗_HuggingFace-Dataset-ffcc00.svg">
     </a>
-    <a href="https://github.com/你的github用户名/S1-MMAlign">
+    <a href="https://github.com/hwangUCAS/S1-MMAlign">
         <img alt="GitHub Repo" src="https://img.shields.io/badge/💻_GitHub-Repository-black">
     </a>
     <a href="#license-and-copyright">
