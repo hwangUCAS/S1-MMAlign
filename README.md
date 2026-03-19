@@ -21,18 +21,32 @@ size_categories:
 
 
 
-  <h1>S1-MMAlign</h1>
-  <p><b>A Large-Scale Multi-Disciplinary Scientific Multimodal Dataset</b></p>
 
 
-**S1-MMAlign** is a large-scale, multi-disciplinary multimodal dataset comprising over **15.5 million** high-quality image-text pairs derived from **2.5 million** open-access scientific papers. 
+<h1 align="center">🔬 S1-MMAlign: A Large-Scale Multi-Disciplinary Scientific Multimodal Dataset</h1>
 
-Multimodal learning has revolutionized general domain tasks, yet its application in scientific discovery is hindered by the profound semantic gap between complex scientific imagery and sparse textual descriptions. **S1-MMAlign** aims to bridge this gap. Unlike simple "image-reading," scientific understanding requires traversing multiple semantic layers involving variables, structures, hypotheses, and inferences. This dataset is built to address this "short board" in current data resources.
+<p align="center">
+    <a href="https://arxiv.org/abs/2601.00264">
+        <img alt="Paper" src="https://img.shields.io/badge/📄_ArXiv-2601.00264-red">
+    </a>
+    <a href="https://huggingface.co/datasets/ScienceOne-AI/S1-MMAlign">
+        <img alt="Hugging Face Dataset" src="https://img.shields.io/badge/🤗_HuggingFace-Dataset-ffcc00.svg">
+    </a>
+    <a href="https://github.com/你的github用户名/S1-MMAlign">
+        <img alt="GitHub Repo" src="https://img.shields.io/badge/💻_GitHub-Repository-black">
+    </a>
+    <a href="#license-and-copyright">
+        <img alt="License" src="https://img.shields.io/badge/License-CC_BY--NC_4.0-blue.svg">
+    </a>
+</p>
 
-The dataset captures diverse visual modalities—including experimental setups, heatmaps, and microscopic imagery—spanning major disciplines such as **Mathematics, Physics, Chemistry, Biology, Astronomy, Earth Science, Medicine, Engineering, and Computer Science**.
+> **Bridging the semantic gap in AI for Science:** A massive dataset of 15.5M+ image-text pairs across 9 STEM disciplines, featuring AI-enhanced captions for superior cross-modal alignment.
 
-We anticipate that researchers and enthusiasts will utilize this dataset for training foundational AI for Science models, advancing scientific reasoning, and improving cross-modal understanding in specialized domains.
 
+
+Multimodal learning has revolutionized general domain tasks, yet its application in scientific discovery is hindered by the profound semantic gap between complex scientific imagery and sparse textual descriptions. 
+
+**S1-MMAlign** aims to bridge this gap. Unlike simple "image-reading," scientific understanding requires traversing multiple semantic layers involving variables, structures, hypotheses, and inferences. This dataset is built to address this "short board" in current data resources.
 ### Dataset Information
 
 **Total Image-Text Pairs:** > 15,500,000
@@ -44,6 +58,9 @@ We anticipate that researchers and enthusiasts will utilize this dataset for tra
 **Alignment Improvement:** +18.21% (CLIP Score vs. Raw Data)
 
 **License:** CC BY-NC 4.0
+<p align="center">
+  <img src="images/subjects.png" alt="Dataset Statistics" width="90%">
+</p>
 
 ### How was the data processed?
 
