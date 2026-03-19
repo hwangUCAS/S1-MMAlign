@@ -66,7 +66,7 @@ Multimodal learning has revolutionized general domain tasks, yet its application
 
 To address the pervasive issue of weak alignment in raw scientific captions, we introduced an AI-ready semantic enhancement pipeline. We utilized the **Qwen-VL** multimodal large model series to recaption images by synthesizing context from paper abstracts and citation contexts. 
 
-Technical validation demonstrates significant quality improvements: SciBERT-based pseudo-perplexity metrics show reduced semantic ambiguity, while CLIP scores indicate an **18.21%** improvement in image-text alignment.
+Technical validation demonstrates comprehensive quality improvements across intrinsic metrics and downstream tasks: SciBERT-based pseudo-perplexity metrics verify reduced semantic ambiguity and enhanced scientific linguistic fluency, CLIP scores show an 18.21% uplift in image-text alignment (with a 27.77% decrease in score variance), and fine-tuning on S1-MMAlign consistently boosts performance on scientific multimodal benchmarks including zero-shot captioning, visual question answering, and cross-modal scientific reasoning.
 
 **Recommendation: Please use the `recaption` field for model pre-training.**
 
